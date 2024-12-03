@@ -1,0 +1,23 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: linear-gradient(to bottom right, transparent, rgba(255, 255, 255, 0.24)), url('https://res.cloudinary.com/dklpgm5tu/image/upload/v1729633654/recetario/dgmepmxwpthsu0pwexbl.jpg') center / cover no-repeat;
+    
+    & .container {
+        text-align: center;
+    }
+      
+    & h1 {
+        font-size: 3rem;
+        color: #000;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+      
+    & p {
+        font-size: 1.5rem;
+        color: #000;
+    }
+}
