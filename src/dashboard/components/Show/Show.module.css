@@ -1,0 +1,49 @@
+.title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 90vh;
+}
+.table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.delete{
+    color: white;
+    background-color:  #66aba3;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.delete:hover{
+    background-color: #e8544f;
+    color: #cce3e0;
+}
+
+.editar{
+    color: black;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.editar:hover{
+    background-color: #cce3e0;
+    color: #007367;
+}

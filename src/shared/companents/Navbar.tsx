@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import style from './Navbar.module.css'
+import style from '@shared/companents/Navbar.module.css'
 import { useState } from 'react';
-import { FaHome, FaUserAlt, FaConciergeBell, FaPhoneAlt, FaSignInAlt } from 'react-icons/fa';
+import { FaHome, FaUserAlt, FaConciergeBell, FaPhoneAlt} from 'react-icons/fa';
 
 export const Navbar:React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,15 +21,12 @@ export const Navbar:React.FC = () => {
           <Link className={style.navbar__item} to={'/dashboard'}>
             <FaUserAlt className={style.icon} /> Dashboard
           </Link>
-          <Link className={style.navbar__item} to={'/services'}>
-            <FaConciergeBell className={style.icon} /> Services
+          <Link className={style.navbar__item} to={'/create'}>
+            <FaConciergeBell className={style.icon} /> Cita
           </Link>
           <Link className={style.navbar__item} to={'/contact'}>
             <FaPhoneAlt className={style.icon} /> Contact
           </Link>
-          <button className={style.loginButton}>
-            <FaSignInAlt className={style.icon} /> Login
-          </button>
         </nav>
 
         <div className={style.menuIcon} onClick={toggleMenu}>

@@ -18,7 +18,19 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Paths */
+    "baseUrl": ".",
+    "paths": {
+      "@config/*": ["src/firebase/*"],
+      "@create/*": ["src/create/*"],
+      "@dashboard/*": ["src/dashboard/*"],
+      "@edit/*": ["src/edit/*"],
+      "@home/*": ["src/home/*"],
+      "@notFound/*": ["src/notFound/*"],
+      "@shared/*": ["src/shared/*"],
+    }
   },
   "include": ["src"]
 }
